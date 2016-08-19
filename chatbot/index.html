@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camilla</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <style> body { margin: 0px; overflow: hidden;} </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+  </head>
+  <body>
+    <input type="checkbox" id="drawer-hndl"/>
+    <label for="drawer-hndl" id="drawer-hndl-label"></label>
+    <header></header>
+    <input type="checkbox" id="viz-toggle"/>
+    <label for="viz-toggle" id="viz-toggle-label"></label>
+    <nav id="sidebar">
+       <ul>
+          <li><a href="" class="drawer">Home</a></li>
+          <li><a href="" class="drawer">Settings</a></li>
+       </ul>
+    </nav>
+    <div id="main" class="main-body">
+       <div id="msgs" class="msg-body">
+          <table id="msg-table">
+          </table>
+       </div>
+       <div id="msgr">
+          <textarea placeholder="Type your message here..." id="msgbox" autocomplete="on" autofocus></textarea>
+          <!-- Put import button here -->
+       </div>
+    </div>
+    <div id="viz">
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
