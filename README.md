@@ -1,6 +1,4 @@
-# penny
+# penny - A simple chat interface to CAMI
 
 ## Requirements
-- Node.js
-- Socket.IO
-- Express
+- [cami-sdk.js](https://github.com/penseur-ai/camisdk-js)
